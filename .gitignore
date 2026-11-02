@@ -1,0 +1,16 @@
+/.env
+/.env.*
+!/.env.example
+/storage/**
+!/storage/logs/
+!/storage/logs/.htaccess
+/page-content/**
+!/page-content/.htaccess
+/vendor/
+/node_modules/
+*.log
+*.zip
+*.sqlite*
+*.pem
+*.key
+.DS_Store
